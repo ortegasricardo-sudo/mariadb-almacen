@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
+    "mariadb": "^3.5.4",
     "morgan": "^1.12.1"
   },
   "devDependencies": {
