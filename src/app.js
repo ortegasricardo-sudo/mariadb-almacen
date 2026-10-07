@@ -5,6 +5,7 @@ import pool from "./database.js";
 
 const app = express();
 
+app.use("/favicon.ico", (req, res) => res.status(200).end());
 app.use(morgan("dev"));
 
 app.get("/clientes", async (req, res) => {
