@@ -41,7 +41,7 @@ app.get("/relacion", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Hello Wolrd");
+    res.json("Bienvenido a mi almacen");
 });
 
 app.listen(PORT, () => {
