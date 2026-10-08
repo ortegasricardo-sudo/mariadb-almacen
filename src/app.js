@@ -41,7 +41,7 @@ app.get("/relacion", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.json("Bienvenido a mi almacen");
+    res.json("Bienvenido a mi almacen - welcome to my warehouse");
 });
 
 export default app;
