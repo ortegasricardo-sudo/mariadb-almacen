@@ -17,6 +17,7 @@ const pool = createPool({
     supportBigNumbers: true,
     bigNumberStrings: true,
     insertIdAsNumber: true,
+    ssl: true
 });
 
 export default pool;
