@@ -16,8 +16,7 @@ const pool = createPool({
     port: DB_PORT,
     supportBigNumbers: true,
     bigNumberStrings: true,
-    insertIdAsNumber: true,
-    ssl: true
+    insertIdAsNumber: true
 });
 
 export default pool;
